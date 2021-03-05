@@ -17,6 +17,4 @@ cd libwebp-1.2.0 && ./configure --prefix=/usr           \
 make
 sudo make install
 cd ..
-wget 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo dpkg -i code_1.54.1-1614898113_amd64.deb
-echo 'all installed!'
