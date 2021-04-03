@@ -17,3 +17,13 @@ cd libwebp-1.2.0 && ./configure --prefix=/usr           \
 make
 sudo make install
 cd ..
+sudo apt-get install build-essential
+wget https://www.imagemagick.org/download/ImageMagick.tar.gz
+tar xvzf ImageMagick.tar.gz
+cd ImageMagick-7.0.11-5/
+./configure
+make
+sudo make install
+sudo ldconfig /usr/local/lib
+cd ..
+echo "Finished Successfully"
